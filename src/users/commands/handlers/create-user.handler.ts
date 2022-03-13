@@ -1,5 +1,4 @@
 import { CommandHandler, EventPublisher, ICommandHandler } from '@nestjs/cqrs';
-import { CreateUserDTO } from '../../dto/create-user.dto';
 import { UserRepository } from '../../repository/user.repository';
 import { CreateUserCommand } from '../impl/create-user.command';
 
